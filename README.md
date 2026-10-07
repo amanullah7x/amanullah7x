@@ -33,7 +33,7 @@ I engineer high-reliability software architectures operating at the boundary of 
 #### 🛰️ [Autonomous UAV Digital Twin (PX4 + Isaac Sim + ROS2)](https://github.com/amanullah7x/uav-isaac-sim-digital-twin)
 A software-in-the-loop (SITL) environment on Ubuntu coupling NVIDIA Isaac Sim with PX4 flight stacks and offboard visual servoing via ROS2 Humble.
 * Integrated bi-directional MAVLink bridges streaming synthetic camera frames and 50 Hz IMU/state telemetry to companion tracking nodes.
-* Calculates real-time pixel offsets ($dx/dy$) to override manual control via MAVLink offboard velocity setpoints, validating aerial target tracking prior to physical flight.
+* Calculates real-time pixel offsets ($dx/dy$) to override manual control via MAVLink offboard velocity setpoints, validating aerial visual tracking prior to physical flight.
 
 #### 🎯 [Aerial Vehicle Detection (RF-DETR Nano)](https://github.com/amanullah7x/edge-vision-tracking-jetson)
 Fine-tuned RF-DETR Nano (PyTorch-based) via Roboflow on a custom-annotated aerial dataset for hierarchical vehicle sub-component detection.
