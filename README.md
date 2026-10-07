@@ -33,11 +33,11 @@ I engineer high-reliability software architectures operating at the boundary of 
 #### 🛰️ [Autonomous UAV Digital Twin (PX4 + Isaac Sim + ROS2)](https://github.com/amanullah7x/uav-isaac-sim-digital-twin)
 A software-in-the-loop (SITL) environment on Ubuntu coupling NVIDIA Isaac Sim with PX4 flight stacks and offboard visual servoing via ROS2 Humble.
 * Integrated bi-directional MAVLink bridges streaming synthetic camera frames and 50 Hz IMU/state telemetry to companion tracking nodes.
-* Calculates real-time pixel offsets ($dx/dy$) to override manual control via MAVLink offboard velocity setpoints, validating terminal guidance prior to physical flight.
+* Calculates real-time pixel offsets ($dx/dy$) to override manual control via MAVLink offboard velocity setpoints, validating aerial target tracking prior to physical flight.
 
 #### 🎯 [Jetson Edge Multi-Object Tracking Pipeline (RF-DETR Nano)](https://github.com/amanullah7x/edge-vision-tracking-jetson)
 A deterministic deployment pipeline for real-time target detection and multi-object tracking on resource-constrained compute modules (Jetson AGX Orin).
-* Trained a custom **RF-DETR Nano** model achieving **89.4% mAP@50, 86.8% precision, and 89.2% recall** for granular hierarchical sub-component detection (**Tank**, **Turret**, and **Track**).
+* Trained a custom **RF-DETR Nano** model (PyTorch-based, via Roboflow) achieving **89.4% mAP@50, 86.8% precision, and 89.2% recall** across 5 hierarchical vehicle sub-component classes.
 * Implemented hardware-accelerated GStreamer pipelines (NVMM zero-copy memory) and TensorRT INT8 quantization to achieve sub-22ms inference latency.
 
 #### 🎛️ [High-Throughput Desktop Ground Control Station (PyQt6 / .NET)](https://github.com/amanullah7x/pyqt-uav-ground-station)
