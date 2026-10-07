@@ -8,9 +8,9 @@ Rawalpindi, Pakistan • [LinkedIn](https://linkedin.com/in/amanullah7x) • [Em
 ### Core Focus
 
 I engineer high-reliability software architectures operating at the boundary of low-level hardware constraints and high-throughput real-time telemetry:
-* **Autonomous UAV Systems:** PX4/ArduPilot configuration, companion computer integration (NVIDIA Jetson AGX Orin), offboard visual servoing, and digital-twin simulation (NVIDIA Isaac Sim + ROS2).
-* **Edge Computer Vision:** Training and validating custom detection models (**RF-DETR Nano** via Roboflow, YOLOv8/v11) for aerial vehicle detection on embedded platforms (NVIDIA Jetson).
-* **Ground Control Software:** Developing low-latency desktop/web GCS interfaces in PyQt6 handling high-rate (50+ Hz) telemetry feeds without UI event loop starvation.
+* **Autonomous UAV Systems:** PX4/ArduPilot configuration, companion computer integration (Raspberry Pi 5 / NVIDIA Jetson AGX Orin), offboard visual servoing, and digital-twin simulation (NVIDIA Isaac Sim + ROS2).
+* **Edge Computer Vision:** Training and validating custom detection models (**RF-DETR Nano** via Roboflow, YOLOv8/v11) for aerial vehicle detection on embedded platforms (NVIDIA Jetson, Google Coral).
+* **Ground Control Software:** Developing low-latency PyQt6 / C# GCS interfaces to consume 50Hz telemetry and drone RTSP video feeds, with ground-station Jetson AGX Orin processing achieving 8-10ms YOLOv8 person detection inference.
 * **Payload & Sensor Integration:** Serial communication with BaseCam 3-axis gimbal controllers, ViewLink Pro camera SDK integration, and RTSP video streaming across devices.
 
 ---
@@ -21,10 +21,10 @@ I engineer high-reliability software architectures operating at the boundary of 
 |---|---|
 | **Languages & Core** | Python, C# (.NET), TypeScript, Bash |
 | **Robotics & Simulation** | ROS/ROS2 Humble, Gazebo, Isaac Sim 4.0+, ArduPilot, PX4, MAVLink, Mission Planner |
-| **Edge AI & Computer Vision** | RF-DETR Nano, YOLOv8/v11, OpenCV, Roboflow |
+| **Edge AI & Computer Vision** | RF-DETR Nano, YOLOv8/v11, OpenCV, Google Coral, Roboflow |
 | **Networking & Telemetry** | ZeroMQ (ZMQ), MQTT, WebSockets, Protobuf, Serial UART |
 | **Frontend & Systems UI** | PyQt6, React.js, Next.js, Electron.js, Node.js, Tailwind CSS |
-| **Embedded & Compute Hardware** | NVIDIA Jetson AGX Orin, Pixhawk 6C/6X, Dual MIPI-CSI Cams, ESP32 |
+| **Embedded & Compute Hardware** | NVIDIA Jetson AGX Orin, Raspberry Pi 5, Pixhawk 6C/6X, Dual MIPI-CSI Cams, ESP32 |
 
 ---
 
