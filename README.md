@@ -47,7 +47,3 @@ A modular ground station interface designed to consume high-frequency drone tele
 
 ---
 
-### Advanced R&D Initiatives
-* **Stereo Camera Depth Estimation:** Designing dual MIPI-CSI setups on Raspberry Pi 5 to calculate precise target distances and dimensions ($D = \frac{f B}{\delta}$) in real time, replacing heavy 500g LiDAR payloads with dual 25g camera modules.
-
-* **Vision-Language-Action (VLA) Robotics:** Exploring OpenVLA models for natural language and AR-assisted UAV direction.
